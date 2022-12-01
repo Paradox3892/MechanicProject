@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        tools:context=".Mechanic_Info"
+        android:orientation="vertical">
+
+
+        <View
+            android:id="@+id/myRectangleView"
+            android:layout_width="316dp"
+            android:layout_height="652dp"
+            android:background="@drawable/rectangle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameOfMechanic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="61dp"
+            android:baselineAligned="false"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="Jack Mamati"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/profile_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:baselineAligned="false"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="Mechanic information"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/mechanicName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+        <TextView
+            android:id="@+id/passion"
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="31dp"
+            android:autofillHints="abc@gmail.com"
+            android:background="@drawable/rectangle"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:text="Mechanic"
+            android:textAlignment="textStart"
+            android:textColor="#101010"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/message"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phNo" />
+
+        <TextView
+            android:id="@+id/phNo"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="14dp"
+            android:autofillHints="abc@gmail.com"
+            android:background="@drawable/rectangle"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:text="+920123456789"
+            android:textColor="#101010"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/passion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mechanicName" />
+
+        <TextView
+            android:id="@+id/mechanicName"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:autofillHints="abc@gmail.com"
+            android:background="@drawable/rectangle"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:text="Mechanic Name"
+            android:textAlignment="viewStart"
+            android:textColor="#101010"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/phNo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+        <!--        <ImageView-->
+<!--            android:id="@+id/profile_image"-->
+<!--            android:layout_width="130dp"-->
+<!--            android:layout_height="79dp"-->
+<!--            android:background="@drawable/circle"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/textView"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/nameOfMechanic"-->
+<!--            app:srcCompat="@drawable/man" />-->
+        <Button
+            android:id="@+id/message"
+            android:layout_width="179dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="105dp"
+            android:backgroundTint="#0F87EC"
+            android:text="call"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passion" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="123dp"
+            android:layout_height="69dp"
+            android:src="@drawable/man"
+            app:civ_border_color="#FF000000"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameOfMechanic"
+            tools:layout_editor_absoluteX="133dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

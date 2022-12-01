@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".TroubleShooting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/trouble" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/trobleshooting"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/list"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/onetrouble" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/one"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onetitle"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onestep"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onesecond"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/two" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twostep"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/three" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/threeplan"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/four" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fourplan"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/five" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/five"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fiveplan"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/six" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/six"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sixplan"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/seven" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seven"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sevenplan"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="290dp"
+            android:src="@drawable/eight" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eight"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eightplan"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+   
+
+</ScrollView>

@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Mechanics on Duty</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mechanics app</string>
+    <string name="nav_header_subtitle">By Muqadas, Aqsa and Zuha</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_categories">Categories</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+    <string name="trobleshooting">
+        <br>
+        CAR TROUBLE SHOOTING
+        </br>
+        </string>
+        <string name="list">
+ <br>
+\nHere are some of the list that may help you to identify basic car trouble shooting.</br>
+        </string>
+        <string name="one">
+ <br>
+Dead or Discharged Battery
+     </br>
+</string>
+    <string name="onetitle">
+ <br>
+\nThere are two ways to start the battery
+     </br>
+</string>
+    <string name="onestep">
+ <br>
+\nWarm Up the Battery
+\n\nCar batteries make power through a chemical reaction and that reaction slows down in cold weather. If you can warm up the battery, you can increase battery output. You can warm up the battery simply by turning the key to start several times, with a 5-minute rest period between each try. Here’s how to do it.
+\n\nTurn the key to the START position and hold it in that position for about 5 seconds.
+\n\nTurn the key to off and wait 5 minutes.
+\nRepeat up to six more times.
+     </br>
+</string>
+    <string name="onesecond">
+ <br>
+\nJump starting the car: \nfor this, you need a jumper cable and a donor car whose battery you will use to charge your car. Place the positive and negative terminals of the jumper cable on the positive and negative terminal of the donor car battery respectively. Then start the donor car and let it run for a few minutes. After some time, your car battery would be charged enough for ignition and once it is done, try the ignition of your car. You’ll be good to go. Want to skip the hassle? Simply book a jumpstart service with GoMechanic and we will handle the situation for you.
+     </br>
+</string>
+    <string name="two">
+        <br>
+\nTire Failure
+        </br>
+        </string>
+    <string name="twostep">
+        <br>
+\nA leading cause of road accidents is tire failure, specifically tire blowouts. If it happens in an area with light traffic, such as on remote provincial roads, it would be difficult to call for assistance.
+\n\nIf it occurs in a congested area, it can result in a collision with other vehicles. Flat tires are less dangerous since they would merely be slowing you down, but they are no less inconvenient.
+\n\nBefore going on a trip, remember to have the tires checked for the proper pressure, treadwear and if the body doesn’t have significant damage such as multiple punctures or cracks on the rubber.
+\n\nIf you suspect that the tires will not be able to hold up on the journey, have them replaced as soon as possible.
+\nAnd be sure to bring the essentials: a properly inflated spare tire, tire wrench, jack, compact air compressor, and a tire gauge. Plus points if you bring a tire patch kit and actually know how to use it, just in case there’s no vulcanizing shop insight.
+        </br>
+        </string>
+    <string name="three">
+        <br>
+\nA Streaky Wiper
+        </br>
+        </string>
+    <string name="threeplan">
+        <br>
+\nAlthough most people naturally plan to take their trips in beautiful weather, encountering rains or thunderstorms midway in the journey is not unheard of. It is extremely dangerous to traverse a road without seeing anything in your path, especially when the wipers leave streaks on the windshield instead of actually removing water from your field of view.
+\nCheck the wipers for any debris that may be hampering their performance. If the wipers turn out to be brittle and nicked, replacing them is the way to go. You can also apply the anti-rain cleaning solution to the windshield glass; this causes the water to bead and slide, making it easier for the wipers to remove them from the surface.
+        </br>
+        </string>
+    <string name="four">
+        <br>
+\nOverheating
+        </br>
+        </string>
+    <string name="fourplan">
+        <br>
+\nA cabin akin to a sauna is one thing, but an engine running hot is something else entirely, especially if part of your journey includes uphill drives that force the engine to work harder. If the cooling system is not up to the task, the engine will likely overheat.
+\n\nYou can prevent this by making sure that the engine’s cooling system is working properly prior to your trip, including the radiator, the auxiliary fan, the radiator hoses.
+\n\nThe level and condition of the engine oil should also be checked since insufficient lubrication or sludge from the old oil will cause the engine to work harder than necessary.
+\nOnce the engine overheats indicator lights up on your instrument panel, pull over and let the engine cool down, then check if there is any coolant or engine oil leaking out.
+        </br>
+        </string>
+    <string name="five">
+        <br>
+\nBrake trouble
+        </br>
+        </string>
+    <string name="fiveplan">
+        <br>
+\nBy far, this is the most dangerous issue you can encounter; you can never predict an emergency situation which will require you to rely heavily on your brakes, so before they give out prematurely, have your braking system checked in advance.
+\n\nEvaluate the condition of your brake pads and calipers, replacing them where necessary. If the rotors need refacing, then do so. And make sure that you have sufficient brake fluid in the reservoir.
+\nYou’ll never know what to expect when you’re on the road, and the above tips will help in making sure you’re your road trip will only have more of the good surprises, and less of the bad.
+        </br>
+        </string>
+    <string name="six">
+        <br>
+\nBurnt Out/Dim Lights
+        </br>
+        </string>
+    <string name="sixplan">
+        <br>
+\nFrom the emergency flashers and trailer/camper lights to the head/tail lights and interior compartment lights, every one of them is important to have working and bright. If you notice dim or cloudy lights, especially on the headlights, then it’s time to give them a good wash. The difference in visibility is tremendous between cloudy and clear head/tail lights. Whenever you stop for gas and clean the bugs from your windshield, you should also do the same for the headlights.
+        </br>
+        </string>
+    <string name="seven">
+        <br>
+\nRan Out of Gas
+        </br>
+        </string>
+    <string name="sevenplan">
+        <br>
+\nWhen embarking on a road trip, it can be easy to only set your sights on stopping at your destination. Pushing the limits too far, however, can result in you and your passengers stuck on the side of the road with an empty gas tank. Thankfully, the solution to this problem is simple. Always check your gas gauge and do not risk trying to make it to a further station if you are unfamiliar with the area.
+\n\nA drained battery, a flat tire, and an empty gas tank are a few of the most common and biggest car problems to avoid on a road trip. Take the proper precautions to ensure your road trip runs smoothly.
+        </br>
+        </string>
+    <string name="eight">
+        <br>
+\nA Warning Light Shows
+        </br>
+        </string>
+    <string name="eightplan">
+        <br>
+\nWarning lights appear when one of the sensors detect an error and highlights it to the engine control unit. There are around 10 or more warning signs so you will need to take this to a professional who can then check the system, find out the source of the warning and carry out the necessary repairs.        </br>
+        </string>
+
+
+
+</resources>

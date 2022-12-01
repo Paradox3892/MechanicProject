@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "310440814958",
+    "project_id": "mechanics-on-duty-dbe64",
+    "storage_bucket": "mechanics-on-duty-dbe64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310440814958:android:05b546178b791e433cb97f",
+        "android_client_info": {
+          "package_name": "com.example.navsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310440814958-tj1ss6bv3ru6fcq1a2brgl80a0mh399a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPodz2x1r4bwH3U7PoUG02siJDjXZaEFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310440814958-tj1ss6bv3ru6fcq1a2brgl80a0mh399a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

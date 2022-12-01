@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RegisterMechanic">
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/img_btn"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:background="@drawable/rectangle"-->
+    <!--        android:text="Add Profile Picture"-->
+    <!--        android:textColor="#000000"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/profile_image" />-->
+
+    <!--    <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--        android:id="@+id/profile_image"-->
+    <!--        android:layout_width="112dp"-->
+    <!--        android:layout_height="97dp"-->
+    <!--        android:layout_marginTop="56dp"-->
+    <!--        android:src="@drawable/man"-->
+    <!--        app:civ_border_color="#FF000000"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.498"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="167dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/loggo"
+        app:civ_border_color="#FF000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mechanic_username"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="15dp"
+        android:autofillHints="abc@gmail.com"
+        android:background="@drawable/rectangle"
+        android:hint="User Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/mechanic_phNo"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mechanic_name"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="14dp"
+        android:autofillHints="abc@gmail.com"
+        android:background="@drawable/rectangle"
+        android:hint="Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/mechanic_username"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mechanic_prof"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="14dp"
+        android:autofillHints="abc@gmail.com"
+        android:background="@drawable/rectangle"
+        android:hint="Profession"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/mechanic_emailAddress"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mechanic_emailAddress"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="13dp"
+        android:autofillHints="abc@gmail.com"
+        android:background="@drawable/rectangle"
+        android:hint="Email Address"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/mechanic_Password"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mechanic_Password"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="abc@gmail.com"
+        android:background="@drawable/rectangle"
+        android:hint="Password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/terms"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="16dp"
+        android:text="I agree to the terms"
+        app:layout_constraintBottom_toTopOf="@+id/register"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="#0F87EC"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FBFBFB"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mechanic_phNo"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="abc@gmail.com"
+        android:background="@drawable/rectangle"
+        android:hint="Phone No"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/mechanic_prof"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="notNow" type="id" />
+    <item name="myRectangleView" type="id" />
+    <item name="password" type="id" />
+    <item name="remembererms" type="id" />
+    <item name="client" type="id" />
+    <item name="mechanic" type="id" />
+    <item name="mechanicAcc" type="id" />
+    <item name="clientAcc" type="id" />
+    <item name="or" type="id" />
+    <item name="signupEmail" type="id" />
+    <item name="register" type="id" />
+    <item name="userPassword" type="id" />
+    <item name="userName" type="id" />
+    <item name="lastName" type="id" />
+    <item name="imageView2" type="id" />
+    <item name="firstName" type="id" />
+</resources>

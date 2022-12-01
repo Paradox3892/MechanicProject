@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="181dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loggo" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:autofillHints="abc@gmail.com"
+        android:background="@drawable/rectangle"
+        android:hint="First Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#101010"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="abc@gmail.com"
+        android:background="@drawable/rectangle"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/userName"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="14dp"
+        android:autofillHints="abc@gmail.com"
+        android:background="@drawable/rectangle"
+        android:hint="User Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/emailAddress"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginBottom="12dp"
+        android:autofillHints="abc@gmail.com"
+        android:background="@drawable/rectangle"
+        android:hint="Email Address"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/userPassword"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="abc@gmail.com"
+        android:background="@drawable/rectangle"
+        android:hint="Password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toTopOf="@+id/remembererms"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/remembererms"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginBottom="27dp"
+        android:text="I agree to the terms"
+        app:layout_constraintBottom_toTopOf="@+id/register"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="47dp"
+        android:backgroundTint="#0F87EC"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FAF9F9"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
